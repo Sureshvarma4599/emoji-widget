@@ -1,0 +1,62 @@
+/* src/WellbeingCheckIn.css */
+.wellbeing-widget {
+    max-width: 720px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 8%;
+  }
+  
+  .emoji-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    row-gap: 24px;
+    column-gap:8px;
+    margin:28px auto;
+    max-width: 500px;
+  }
+  
+  .emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    outline: none;
+    width:92px;
+    height:138px;
+    border: 1px solid #d1d5db;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .emoji-button p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .emoji-button.selected {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+  
+  .continue-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 24px;
+    width: 100%;
+  }
+  
+  .continue-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
